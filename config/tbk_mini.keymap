@@ -97,12 +97,12 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp ESC    &kp N1  &kp N2    &kp N3       &kp N4     &kp N5    &kp N6      &kp N7     &kp N8     &kp N9    &kp N0    &kp MINUS
-&lt 1 TAB  &kp Q   &kp W     &kp E        &kp R      &kp T     &kp Y       &kp U      &kp I      &kp O     &kp P     &kp EQUAL
-&kp CAPS   &kp A   &kp S     &kp D        &kp F      &kp G     &kp H       &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
-&kp GRAVE  &kp Z   &kp X     &kp C        &kp V      &kp B     &kp N       &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RWIN
-                   &kp HOME  &kp PAGE_UP  &kp LCTRL  &kp BSPC  &kp ENTER   &kp SPACE  &kp LBKT   &kp RBKT
-                   &kp LALT  &kp LCTRL    &mo 3      &mo 1     &kp DELETE  &bl BL_ON  &kp RCTRL  &mo 2
+&kp ESC       &kp N1  &kp N2    &kp N3       &kp N4     &kp N5    &kp N6      &kp N7     &kp N8     &kp N9    &kp N0    &kp MINUS
+&lt 1 TAB     &kp Q   &kp W     &kp E        &kp R      &kp T     &kp Y       &kp U      &kp I      &kp O     &kp P     &kp EQUAL
+&kp LSHIFT    &kp A   &kp S     &kp D        &kp F      &kp G     &kp H       &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
+&kp CAPSLOCK  &kp Z   &kp X     &kp C        &kp V      &kp B     &kp N       &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RWIN
+                      &kp HOME  &kp PAGE_UP  &kp LCTRL  &kp BSPC  &kp ENTER   &kp SPACE  &kp LBKT   &kp RBKT
+                      &kp LALT  &kp GRAVE    &mo 3      &mo 1     &kp DELETE  &bl BL_ON  &kp RCTRL  &mo 2
             >;
         };
 
@@ -132,12 +132,12 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans    &trans     &trans  &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME   &kp UP    &kp END    &trans  &kp RBKT
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PG_UP  &trans    &kp PG_DN  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans     &trans    &trans
-                &trans  &trans  &trans  &trans  &trans  &trans     &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans           &trans  &kp MINUS
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans  &kp RBKT
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PG_UP       &trans          &kp PG_DN        &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans
+                &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans
             >;
         };
     };
