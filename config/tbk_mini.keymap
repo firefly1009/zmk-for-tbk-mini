@@ -89,6 +89,16 @@
             key-positions = <38 39>;
             bindings = <&kp LGUI>;
         };
+
+        RW {
+            bindings = <&kp RIGHT_WIN>;
+            key-positions = <7 8 9>;
+        };
+
+        MYENTER {
+            bindings = <&kp ENTER>;
+            key-positions = <31 32 33>;
+        };
     };
 
     keymap {
@@ -97,12 +107,12 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp ESC       &kp N1  &kp N2    &kp N3       &kp N4     &kp N5    &kp N6      &kp N7     &kp N8     &kp N9    &kp N0    &kp EQUAL
-&lt 1 TAB     &kp Q   &kp W     &kp E        &kp R      &kp T     &kp Y       &kp U      &kp I      &kp O     &kp P     &kp LBKT
-&kp LSHIFT    &kp A   &kp S     &kp D        &kp F      &kp G     &kp H       &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
-&kp CAPSLOCK  &kp Z   &kp X     &kp C        &kp V      &kp B     &kp N       &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp BACKSLASH
-                      &kp HOME  &kp PAGE_UP  &kp LCTRL  &kp BSPC  &kp ENTER   &kp SPACE  &kp LBKT   &kp RBKT
-                      &kp LALT  &kp GRAVE    &mo 1      &mo 3     &kp DELETE  &bl BL_ON  &kp RCTRL  &mo 2
+&kp ESC       &kp N1  &kp N2    &kp N3       &kp N4     &kp N5    &kp N6         &kp N7     &kp N8     &kp N9    &kp N0    &kp EQUAL
+&lt 1 TAB     &kp Q   &kp W     &kp E        &kp R      &kp T     &kp Y          &kp U      &kp I      &kp O     &kp P     &kp LBKT
+&kp LSHIFT    &kp A   &kp S     &kp D        &kp F      &kp G     &kp H          &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
+&kp CAPSLOCK  &kp Z   &kp X     &kp C        &kp V      &kp B     &kp N          &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp BACKSLASH
+                      &kp HOME  &kp PAGE_UP  &kp LCTRL  &kp BSPC  &kp ENTER      &kp SPACE  &kp LBKT   &kp RBKT
+                      &kp LALT  &kp GRAVE    &mo 1      &mo 3     &kp RIGHT_WIN  &bl BL_ON  &kp RCTRL  &mo 2
             >;
         };
 
