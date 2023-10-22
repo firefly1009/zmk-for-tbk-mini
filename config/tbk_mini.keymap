@@ -5,7 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
@@ -106,7 +105,7 @@
 &kp LSHIFT    &kp A   &kp S        &kp D      &kp F      &kp G     &kp H          &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
 &kp CAPSLOCK  &kp Z   &kp X        &kp C      &kp V      &kp B     &kp N          &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp BACKSLASH
                       &kp PAGE_UP  &kp HOME   &kp LCTRL  &kp BSPC  &kp ENTER      &kp SPACE  &kp LBKT   &kp RBKT
-                      &kp LALT     &kp GRAVE  &mo 1      &mo 3     &kp RIGHT_WIN  &bl BL_ON  &kp RCTRL  &mo 2
+                      &kp LALT     &kp GRAVE  &mo 1      &mo 3     &kp RIGHT_WIN  &kp DEL    &kp RCTRL  &mo 2
             >;
         };
 
@@ -136,12 +135,12 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans           &trans  &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans  &kp RBKT
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp GRAVE
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PG_UP       &trans          &kp PG_DN        &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans
-                &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans
+&trans  &trans  &trans  &trans   &trans  &trans  &trans  &trans          &trans          &trans           &trans  &kp MINUS
+&trans  &trans  &trans  &trans   &trans  &trans  &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans  &kp RBKT
+&trans  &trans  &trans  &trans   &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp GRAVE
+&trans  &trans  &trans  &trans   &trans  &trans  &trans  &kp PG_UP       &trans          &kp PG_DN        &trans  &trans
+                &trans  &kp END  &trans  &trans  &trans  &trans          &trans          &trans
+                &trans  &trans   &trans  &trans  &trans  &trans          &trans          &trans
             >;
         };
     };
